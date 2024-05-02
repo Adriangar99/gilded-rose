@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest"
-import { GildedRose, Item } from "./GildedRose.js"
+import { GildedRose } from "./GildedRose.js"
+import { Item } from "./Item.js"
 
 describe("GildedRose", () => {
   const itemNames = ["Apple", "Aged Brie", "Sulfuras, Hand of Ragnaros", "Backstage passes to a TAFKAL80ETC concert"]
